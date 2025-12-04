@@ -1,6 +1,6 @@
 services:
-  homeassistant:
-    container_name: homeassistant
+  Simultantesthomeassistant:
+    container_name: Testhomeassistant
     image: ghcr.io/home-assistant/home-assistant:stable
     volumes:
       - ./config:/config
